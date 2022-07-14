@@ -14,7 +14,7 @@ const ShowTodos = () => {
               console.log(JSON.stringify(res.data));
           } catch (err) {
               console.log(err);
-          }
+          } 
       }
       fetchData();
   }, []);
